@@ -18,18 +18,3 @@ updates:
   reviewers:
     - "lijamie98"    
   open-pull-requests-limit: 10
-
-#  - package-ecosystem: "gradle" # See documentation for possible values
-#    directory: "/" # Location of package manifests
-#    target-branch: "main"
-#    schedule:
-#      interval: "daily"
-#      time: "20:00"
-#      timezone: "US/Pacific"
-#    labels:
-#      - "gradle"
-#      - "dependencies"
-#    open-pull-requests-limit: 5
-#    rebase-strategy: "disabled"
-#    reviewers:
-#      - "lijamie98"
