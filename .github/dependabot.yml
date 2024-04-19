@@ -11,7 +11,7 @@ updates:
   directory: "/" # Location of package manifests
   schedule:
     interval: "daily"
-    time: "4:55"
+    time: "04:55"
 
     
 #  - package-ecosystem: "gradle" # See documentation for possible values
