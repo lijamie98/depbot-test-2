@@ -8,7 +8,7 @@ repositories { mavenCentral() }
 
 dependencies {
   // add snakeyaml dependency
-  implementation("org.yaml:snakeyaml:1.33")
+  implementation("org.yaml:snakeyaml:2.2")
   // add postgres
   implementation("org.postgresql:postgresql:42.7.1")
   // add json dependency
