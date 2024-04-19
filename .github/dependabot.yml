@@ -2,20 +2,29 @@
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
 
 version: 2
 updates:
-  - package-ecosystem: "gradle" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    target-branch: "main"
-    schedule:
-      interval: "daily"
-      time: "20:00"
-      timezone: "US/Pacific"
-    labels:
-      - "gradle"
-      - "dependencies"
-    open-pull-requests-limit: 5
-    rebase-strategy: "disabled"
-    reviewers:
-      - "lijamie98"
+- package-ecosystem: "gradle" # See documentation for possible values
+  directory: "/" # Location of package manifests
+  schedule:
+    interval: "daily"
+    time: "4:55"
+
+    
+#  - package-ecosystem: "gradle" # See documentation for possible values
+#    directory: "/" # Location of package manifests
+#    target-branch: "main"
+#    schedule:
+#      interval: "daily"
+#      time: "20:00"
+#      timezone: "US/Pacific"
+#    labels:
+#      - "gradle"
+#      - "dependencies"
+#    open-pull-requests-limit: 5
+#    rebase-strategy: "disabled"
+#    reviewers:
+#      - "lijamie98"
