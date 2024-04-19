@@ -15,7 +15,7 @@ dependencies {
   implementation("org.json:json:20201115")
   // add snappy-java
   implementation("org.xerial.snappy:snappy-java:1.1.8.4")
-  implementation("org.xerial:sqlite-jdbc:3.36.0.3")
+  implementation("org.xerial:sqlite-jdbc:3.45.3.0")
   // add avro
   implementation("org.apache.avro:avro:1.10.1")
 
