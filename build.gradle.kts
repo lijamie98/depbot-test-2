@@ -12,7 +12,7 @@ dependencies {
   // add postgres
   implementation("org.postgresql:postgresql:42.7.1")
   // add json dependency
-  implementation("org.json:json:20201115")
+  implementation("org.json:json:20240303")
   // add snappy-java
   implementation("org.xerial.snappy:snappy-java:1.1.8.4")
   implementation("org.xerial:sqlite-jdbc:3.36.0.3")
