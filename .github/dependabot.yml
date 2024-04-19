@@ -11,12 +11,12 @@ updates:
   directory: "/" # Location of package manifests
   schedule:
     interval: "daily"
-    time: "05:14"
-    labels:
-      - "vulnerability"
-      - "dependencies"
-    reviewers:
-      - "lijamie98"    
+    time: "05:15"
+  labels:
+    - "vulnerability"
+    - "dependencies"
+  reviewers:
+    - "lijamie98"    
 #  - package-ecosystem: "gradle" # See documentation for possible values
 #    directory: "/" # Location of package manifests
 #    target-branch: "main"
