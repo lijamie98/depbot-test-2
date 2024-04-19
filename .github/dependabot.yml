@@ -11,7 +11,7 @@ updates:
   directory: "/" # Location of package manifests
   schedule:
     interval: "daily"
-    time: "05:16"
+    time: "05:20"
   labels:
     - "vulnerability"
     - "dependencies"
