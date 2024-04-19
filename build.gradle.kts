@@ -10,7 +10,7 @@ dependencies {
   // add snakeyaml dependency
   implementation("org.yaml:snakeyaml:1.33")
   // add postgres
-  implementation("org.postgresql:postgresql:42.7.1")
+  implementation("org.postgresql:postgresql:42.7.3")
   // add json dependency
   implementation("org.json:json:20201115")
   // add snappy-java
