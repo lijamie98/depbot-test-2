@@ -17,7 +17,7 @@ dependencies {
   implementation("org.xerial.snappy:snappy-java:1.1.8.4")
   implementation("org.xerial:sqlite-jdbc:3.36.0.3")
   // add avro
-  implementation("org.apache.avro:avro:1.10.1")
+  implementation("org.apache.avro:avro:1.11.3")
 
   testImplementation(platform("org.junit:junit-bom:5.10.0"))
   testImplementation("org.junit.jupiter:junit-jupiter")
