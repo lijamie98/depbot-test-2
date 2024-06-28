@@ -19,7 +19,7 @@ dependencies {
   // add avro
   implementation("org.apache.avro:avro:1.10.1")
 
-  testImplementation(platform("org.junit:junit-bom:5.10.0"))
+  testImplementation(platform("org.junit:junit-bom:5.10.3"))
   testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
